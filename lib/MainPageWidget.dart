@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+/*import 'package:flutter/material.dart';
 import 'package:flutter_application_1/detail/CouponDetail.dart';
 import 'package:flutter_application_1/list/CouponListView.dart';
 
@@ -38,3 +38,4 @@ class _MainPageWidget extends State<MainPageWidget>{
     );
   }
 }
+*/
