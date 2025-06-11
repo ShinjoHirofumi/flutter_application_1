@@ -39,7 +39,7 @@ class _QuizScreenState extends State<QuizScreen> {
           children: [
             Text(questions[_questionIndex].questionText, style: const TextStyle(fontSize: 18)),
             const SizedBox(height: 20),
-            ...questions[_questionIndex].answers.map((answer) {
+            ...questions[_questionIndex].shuffledAnswers.map((answer) {
               return Padding(
                 padding: const EdgeInsets.symmetric(vertical: 5),
                 child: ElevatedButton(
