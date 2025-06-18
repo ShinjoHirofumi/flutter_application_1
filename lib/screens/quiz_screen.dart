@@ -11,7 +11,7 @@ class QuizScreen extends StatefulWidget {
 
 class _QuizScreenState extends State<QuizScreen> {
   int _questionIndex = 0;
-  int _score = 0;
+  int _score = 0; 
 
   void _answerQuestion(bool isCorrect) {
     if (isCorrect) _score++;
